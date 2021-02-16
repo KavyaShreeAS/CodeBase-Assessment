@@ -1,0 +1,167 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;600&display=swap');
+
+html,body {
+    font-family: 'Kanit', sans-serif;
+    background-image: url('/assets/background.jpg');
+    margin: 0;
+    width: auto;
+    background-position: bottom;
+}
+
+.logo {
+    width: 75%;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.page-header {
+    padding:10px 0px 10px 15px ;
+    margin-top: 0 !important;
+    border-bottom: 4px solid rgb(255,150,85);
+    background-color: #fff;
+    margin-bottom: 15%;
+}
+
+.card-header {
+    background-color : rgb(12, 131, 151);
+    padding:10px 25px;
+    color: #fff;
+    font-size:18px;
+}
+
+.card-content {
+    overflow: auto;
+    background-color: white;
+    min-height:50px;
+    padding: 50px 25px 20px 25px;
+}
+.transaction-wrapper {
+    margin-top:10%;
+}
+
+.list-item-amount {
+    font-size: 16px;
+    padding: 10px 0 0 0;
+}
+
+.sort-wrapper {
+    margin-top: 3%;
+}
+
+.sort-label {
+    padding-top: 8px;
+    padding-left:0;
+}
+
+.search-wrapper {
+    padding-left:0px;
+}
+
+input {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    border-radius: 0px;
+    padding: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #d3d3d3;
+}
+
+input :focus {
+    box-shadow: none;
+}
+
+button {
+    background: none;
+    outline: none;
+    border: 1px solid lightgrey;
+    padding: 5px 17px;
+}
+
+.list-table {
+    margin-top:5%;
+    word-wrap: break-word;
+}
+
+.list-item-name {
+    font-size:16px;
+    font-weight: bold;
+}
+.list-item-type {
+    font-size:16px;
+}
+.list-item {
+    padding: 20px 10px;
+    border-top: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-left: 10px solid;
+}
+
+@media only screen and (min-width: 600px){
+button {
+    background: none;
+    outline: none;
+    border: 1px solid lightgrey;
+    padding: 5px 17px;
+}
+.list-item-amount {
+    font-size: 20px;
+    text-align:center;
+}
+}
+
+@media only screen and (min-width: 992px) {
+
+.logo {
+    width: 30%;
+}
+
+.page-header {
+    padding:10px 0px 10px 100px;
+    margin-bottom: 5%;
+}
+
+.transaction-wrapper {
+    margin-top: 0;
+}
+
+.sort-wrapper {
+    margin-top: 0;
+}
+button {
+    padding: 5px 12px;
+}
+
+.list-item-amount {
+    font-size: 20px;
+    text-align:center;
+}
+
+.sort-label {
+    padding-top: 10px;
+    padding-left:20px;
+}
+
+.search-wrapper {
+    padding-left:15px;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+    button {
+        padding: 5px 22px;
+    }
+}

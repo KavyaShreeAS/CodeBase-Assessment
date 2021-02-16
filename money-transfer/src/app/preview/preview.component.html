@@ -1,0 +1,35 @@
+<div class="card col-lg-5 col-md-5 col-sm-12 col-xs-12">
+    <div class="card-header text-center">
+        <div>
+            Transaction Details
+        </div>
+    </div>
+    <div class="card-content">
+        
+            <div class="form-group">
+                <label for="from-account">FROM ACCOUNT</label>
+                <div class="">
+                    {{transferDetail.fromAccount}}
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="from-account">TO ACCOUNT</label>
+                <div class="">
+                    {{transferDetail.toAccount}}
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="from-account">AMOUNT</label>
+                <div class="">
+                    {{transferDetail.amount}}
+                </div>
+            </div>
+
+            <div class="form-group pull-right">
+                <button class="button btn submit-btn" (click)="transfer()">Transfer</button>
+            </div>
+        
+    </div>
+</div>

@@ -1,0 +1,32 @@
+<div class="card">
+    <div class="card-header text-center">
+        <div class="icon pull-left">
+            <img src="../../../assets/icons/arrows.png" alt="arrow">
+        </div>
+        <div>
+            Make a transfer
+        </div>
+    </div>
+    <div class="card-content">
+        <form class="form" [formGroup] = "transferForm" (submit) = "submit()">
+            <div class="form-group">
+                <label for="from-account">FROM ACCOUNT</label>
+                <input type="text" class="payment-input" name="fromAccount" formControlName="fromAccount">
+            </div>
+
+            <div class="form-group">
+                <label for="from-account">TO ACCOUNT</label>
+                <input type="text" class="payment-input" name="toAccount" formControlName="toAccount">
+            </div>
+
+            <div class="form-group">
+                <label for="from-account">AMOUNT</label>
+                <input type="text" class="payment-input" name="amount" formControlName="amount">
+            </div>
+
+            <div class="form-group pull-right">
+                <button class="button btn submit-btn" type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</div>
